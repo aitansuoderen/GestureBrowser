@@ -1,0 +1,4 @@
+<set xmlns:android="http://schemas.android.com/apk/res/android" android:interpolator="@anim/ease_sheet" android:duration="440">
+    <translate android:fromYDelta="100%" android:toYDelta="0"/>
+    <alpha android:duration="200" android:fromAlpha="0.3" android:toAlpha="1"/>
+</set>

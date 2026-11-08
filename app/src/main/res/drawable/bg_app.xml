@@ -1,0 +1,7 @@
+<!-- 主页氛围底色：浅暖灰上叠三团很淡的柔光（桃、天蓝、薄荷），让透明玻璃透出颜色 -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item><shape><solid android:color="#F6F5F3"/></shape></item>
+    <item><shape><gradient android:type="radial" android:centerX="0.9" android:centerY="0.12" android:gradientRadius="70%p" android:startColor="#FFFFCDB0" android:endColor="#00FFCDB0"/></shape></item>
+    <item><shape><gradient android:type="radial" android:centerX="0.05" android:centerY="0.45" android:gradientRadius="75%p" android:startColor="#FFC4DAFA" android:endColor="#00C4DAFA"/></shape></item>
+    <item><shape><gradient android:type="radial" android:centerX="0.75" android:centerY="0.95" android:gradientRadius="70%p" android:startColor="#FFCDEFE0" android:endColor="#00CDEFE0"/></shape></item>
+</layer-list>

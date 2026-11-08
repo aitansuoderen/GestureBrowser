@@ -1,0 +1,8 @@
+<resources>
+    <!-- unslop：一套暖灰中性色 + 一个橙色强调色 -->
+    <color name="home_bg">#F6F5F3</color>
+    <color name="pill_bg">#EFEDEA</color>
+    <color name="text_main">#1F1D1A</color>
+    <color name="text_sub">#5E5A54</color>
+    <color name="accent">#D9480F</color>
+</resources>

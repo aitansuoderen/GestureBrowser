@@ -1,0 +1,4 @@
+<set xmlns:android="http://schemas.android.com/apk/res/android" android:duration="360">
+    <scale android:interpolator="@anim/spring_pop" android:fromXScale="0.82" android:toXScale="1" android:fromYScale="0.82" android:toYScale="1" android:pivotX="50%" android:pivotY="0%"/>
+    <alpha android:interpolator="@android:interpolator/decelerate_cubic" android:duration="180" android:fromAlpha="0" android:toAlpha="1"/>
+</set>

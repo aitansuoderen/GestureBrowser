@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">手势浏览器</string>
+    <string name="url_hint">搜索或输入网址</string>
+</resources>

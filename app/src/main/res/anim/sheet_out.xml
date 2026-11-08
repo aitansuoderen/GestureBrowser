@@ -1,0 +1,3 @@
+<set xmlns:android="http://schemas.android.com/apk/res/android" android:interpolator="@android:interpolator/fast_out_linear_in" android:duration="220">
+    <translate android:fromYDelta="0" android:toYDelta="100%"/>
+</set>
