@@ -1,3 +1,9 @@
+import java.util.Properties
+
+// 签名：根目录放 keystore.properties（不进仓库）就用你自己的密钥，没有就用调试密钥
+val ksFile = rootProject.file("keystore.properties")
+val ks = Properties().also { p -> if (ksFile.exists()) ksFile.inputStream().use { p.load(it) } }
+
 plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
@@ -16,9 +22,6 @@ android {
         versionName = "3.6"
     }
 
-    // 签名：根目录放 keystore.properties（不进仓库）就用你自己的密钥，没有就用调试密钥
-    val ksFile = rootProject.file("keystore.properties")
-    val ks = java.util.Properties().apply { if (ksFile.exists()) ksFile.inputStream().use { load(it) } }
     signingConfigs {
         create("gb") {
             if (ks.isNotEmpty()) {
